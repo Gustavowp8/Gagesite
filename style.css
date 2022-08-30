@@ -221,6 +221,85 @@ a:hover{
     font-size: 24px;
   }
 
+  #faleG{
+    width: 200px;
+    margin: auto;
+    height: 30px;
+    background: #4889B9;
+    border: 1px solid #38a4e1;
+    border-radius: 10px;
+    color: #ffffff;
+    font-weight: 600;
+    font-size: 20px;
+    margin-top: 10px;
+  }
+  /*============================*/
+
+  .contato{
+    display: none;
+    background: rgba(0, 0, 0, 0.185);
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 10001;
+  }
+
+  .contatoDois{
+    position: absolute;
+	  bottom: 0;
+    width: 100%;
+    /*background: blue;*/
+    padding: 5px;
+  }
+
+  .contatoTres h2{
+    margin-top: -15px;
+    color: #374957;
+    margin-bottom: 5px;
+  }
+
+  .contatoTres{
+    color: #374957;
+  }
+
+  #logoM{
+    width: 50px;
+    border: 1px solid #37495700;
+    box-shadow: none;
+    background: #ffffff00;
+  }
+
+  .contatoTres img{
+    width: 30px;
+    padding: 5px;
+    border-radius: 4px;
+    cursor: pointer;
+    border: 1px solid #3749572d;
+    box-shadow: 4px 4px 2px #37495741;
+    background: #ffffff87;
+  }
+
+  .contatoTres ul{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    list-style: none;
+  }
+
+  .contatoTres{
+    background-color: #ffffff10;
+    backdrop-filter: blur(12px);
+    -webkit-backdrop-filter: blur(12px);
+    padding: 10px;
+    text-align: center;
+    border-radius: 4px;
+    max-width: 500px;
+    margin: auto;
+    border: 2px solid #ffffff8d;
+  }
+
   /*========================*/
 
   footer{
@@ -379,6 +458,18 @@ a:hover{
 
       #faleC{
         width: 100%;
+      }
+
+      .contatoTres{
+        background-color: #ffffff10;
+        backdrop-filter: blur(12px);
+        -webkit-backdrop-filter: blur(12px);
+        border: 2px solid #ffffff8d;
+        padding: 10px;
+        text-align: center;
+        border-radius: 4px;
+        width: auto;
+        margin: 20px;
       }
 
       footer{
