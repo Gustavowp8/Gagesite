@@ -289,9 +289,10 @@ a:hover{
   }
 
   .contatoTres{
-    background-color: #ffffff10;
+    /*background-color: #ffffff10;
     backdrop-filter: blur(12px);
-    -webkit-backdrop-filter: blur(12px);
+    -webkit-backdrop-filter: blur(12px);*/
+    background: #ffffff;
     padding: 10px;
     text-align: center;
     border-radius: 4px;
@@ -461,9 +462,10 @@ a:hover{
       }
 
       .contatoTres{
-        background-color: #ffffff10;
+       /* background-color: #ffffff10;
         backdrop-filter: blur(12px);
-        -webkit-backdrop-filter: blur(12px);
+        -webkit-backdrop-filter: blur(12px);*/
+        background: #ffffff;
         border: 2px solid #ffffff8d;
         padding: 10px;
         text-align: center;
