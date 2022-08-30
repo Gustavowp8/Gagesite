@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;500&display=swap');
 
 *{
     margin: 0;
@@ -136,6 +136,114 @@ a:hover{
     color: #38a4e1;
   }
 
+  .flex{
+    /*background: red;*/
+    display: flex;
+    flex-wrap: wrap;
+    max-width: 1200px;
+    margin: auto;
+    margin-top: 20px;
+  }
+
+  .flex h2{
+    font-weight: 700;
+    font-size: 32px;
+  }
+
+  .flex p{
+    font-weight: 400;
+  font-size: 18px;
+  }
+
+  .flex > div{
+    flex: 1 0 300px;
+    margin: 15px;
+    background: #ffffff;
+    text-align: center;
+    padding: 20px;
+    border-radius: 4px;
+    transition: all 0.5s;
+    cursor: pointer;
+  }
+  .flex > div:hover{
+    -webkit-filter: drop-shadow(15px 10px 5px rgba(0,0,0,.5));
+    filter: drop-shadow(15px 10px 5px rgba(0,0,0,.5));
+  }
+
+  /*========================*/
+
+  .contrate{
+    background: #ffffff;
+    margin: 10px;
+    border-radius: 4px;
+    padding: 10px;
+    text-align: center;
+  }
+  .contateDois{
+    display: grid;
+    grid-template-columns: minmax(250px, 350px)1fr;
+  }
+
+  .contateDois h2{
+    margin-top: 5%;
+    font-weight: 700;
+    font-size: 36px;
+  }
+
+  .contateDois p{
+    font-weight: 600;
+    font-size: 24px;
+    text-align: left;
+  }
+
+  #cont{
+    padding: 10px; 
+  }
+
+  #cont img{
+    width: 100%;
+  }
+
+  #contDois{
+    padding: 10px;
+    align-items: center;
+  }
+
+  #faleC{
+    width: 300px;
+    margin: auto;
+    height: 44px;
+    background: #4889B9;
+    border: 1px solid #38a4e1;
+    border-radius: 10px;
+    color: #ffffff;
+    font-weight: 600;
+    font-size: 24px;
+  }
+
+  /*========================*/
+
+  footer{
+    margin-top: 5%;
+    background: #000000;
+    display: flex;
+    align-items: center;
+    padding: 10px;
+  }
+
+  footer a{
+    color: #ffffff;
+    margin-left: 20px;
+  }
+
+  footer img{
+    width: 150px;
+  }
+
+  footer ul{
+    display: flex;
+  }
+
 /*====== conteudo ======*/
 
 @media(max-width: 600px){
@@ -220,5 +328,77 @@ a:hover{
     .sestorage p{
         font-weight: 500;
         font-size: 12px;
+      }
+
+      .flex h2{
+        font-weight: 700;
+        font-size: 20px;
+      }
+    
+      .flex p{
+        font-weight: 400;
+        font-size: 15px;
+      }
+
+      .flex img{
+        width: 100px;
+      }
+    
+      .flex > div{
+        flex: 1 0 200px;
+        margin: 15px;
+        background: #ffffff;
+        text-align: center;
+        padding: 20px;
+        border-radius: 4px;
+      }
+
+      .contrate{
+        background: #ffffff;
+        margin: 20px;
+        border-radius: 4px;
+      }
+
+      .contateDois{
+        display: flex;
+        flex-wrap: wrap;
+        grid-template-columns: none;
+      }
+
+      .contateDois h2{
+        margin-top: 5%;
+        font-weight: 600;
+        font-size: 20px;
+        text-align: center;
+      }
+    
+      .contateDois p{
+        font-weight: 400;
+        font-size: 15px;
+      }
+
+      #faleC{
+        width: 100%;
+      }
+
+      footer{
+        margin-top: 5%;
+        background: #000000;
+        display: flex;
+        align-items: center;
+        padding: 10px;
+      }
+    
+      footer a{
+        color: #ffffff;
+        margin-left: 20px;
+      }
+    
+      footer img{
+        width: 150px;
+      }
+    
+      footer ul{
+        display: block;
       }
 }
